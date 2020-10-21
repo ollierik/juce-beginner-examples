@@ -38,6 +38,7 @@ struct FilterBand : public AudioProcessorParameter::Listener
         gainParam = new AudioParameterFloat (bandId + "gain", bandName + " Gain", -30, 30, 0);
     
         // Band type is a choice parameter. Google for docs.
+        // To add more band types, add them to the list of types, and implement their respective design functions into parameterValueChanged
         typeParam = new AudioParameterChoice (bandId + "type", bandName + " Type", { "Lowpass", "Peaking", }, defaultType);
     
         // Add the newly created parameters to the audio processor
