@@ -3,7 +3,7 @@
 This repository contains simple examples for JUCE (version 6) for beginners. I've written these as part of teaching at a university level. The examples are mostly aimed at students with little experience in JUCE or C++.
 
 ### Disclaimer:
-Some of the practices used in these examples do not represent the way thing should probably be done in actual production level code.
+Some of the practices used in these examples do not represent the way thing should probably be done in actual production level code, but should be easier to understand for beginners.
 
 ## Get started:
 
