@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT name="midside" projectType="audioplug" version="0.0.1" reportAppUsage="0"
-              displaySplashScreen="0" pluginName="midside" pluginDesc="midside"
-              pluginManufacturer="juce-beginner-examples" pluginManufacturerCode="JBEx"
-              pluginCode="MidS" pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+<JUCERPROJECT name="midside-example" projectType="audioplug" version="0.0.1"
+              reportAppUsage="0" displaySplashScreen="0" pluginName="midside"
+              pluginDesc="midside" pluginManufacturerCode="JBEx" pluginCode="MidS"
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
               pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" cppLanguageStandard="11"
               id="ld7OjF" pluginFormats="buildVST3" buildVST="0" buildVST3="1"
               buildAU="0" buildAUv3="0" buildRTAS="0" buildAAX="0" buildStandalone="0"
-              enableIAA="0" jucerFormatVersion="1" addUsingNamespaceToJuceHeader="1">
-  <MAINGROUP id="ZQUspK" name="midside">
+              enableIAA="0" jucerFormatVersion="1" addUsingNamespaceToJuceHeader="1"
+              companyName="juce-beginner-examples">
+  <MAINGROUP id="ZQUspK" name="midside-example">
     <GROUP id="{3EE3A509-6865-E2F9-48E5-3AD597581B0B}" name="Source">
       <FILE id="Dy5W2c" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp" xcodeResource="0"/>
